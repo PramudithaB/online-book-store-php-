@@ -1,0 +1,35 @@
+.container {
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(222, 215, 250);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] 
+{
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body{
+    background-image: url(../images/12.jpg);
+    background-size: cover;
+    background-position: center;
+
+} 

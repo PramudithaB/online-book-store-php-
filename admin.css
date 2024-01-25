@@ -1,0 +1,25 @@
+body{
+    background-color:aqua;
+    background-image: url(../images/images\ \(2\).jfif);
+}
+.tab{
+    text-align: center;
+    margin-top: 15%;
+}
+.tab2{
+   height: 35px;
+   width: 530px;
+   border-radius: 25px;
+}
+.tab3{
+    height: 35px;
+   width: 400px;
+   border-radius: 25px;
+}
+.btn1{
+    height: 35px;
+   width: 300px;
+   border-radius: 25px;
+   background-color: darkgray;
+   color: beige;
+}

@@ -1,0 +1,317 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../images/14.jpg);
+    background-size:  cover;
+    background-position: center;
+
+
+}
+*::after,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 100px;
+    /* background-image: url(../images/emblem-icon-banner-badge-graphic.jpg); */
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav .logo h1{
+    font-weight: 600;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.nav .logo b{
+    color: #ff511c;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li{
+    margin-right: 30px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.nav ul .active::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    background-color: #ff511c;
+    display: flex;
+    position: relative;
+    margin-left: 10px;
+}
+
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+li{
+    padding: 2px;
+}
+.checked{
+    color: yellow;
+}
+
+input{
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+    
+}
+
+.Login{
+    background: transparent;
+    border: none;
+}
+
+.SignUp{
+    background-color: #ff511c;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.AddtoCart{
+    background-color:aqua;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.heading
+{
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+.heading h1
+{
+    font-size: 50px;
+    color:brown;
+    margin-bottom: 10px;
+
+}
+
+.heading p
+{
+    font-size: 25px;
+    color:#000000;
+    margin-bottom: 50px;
+
+}
+
+.About-Us
+{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+
+}
+
+.About-Us img
+{
+    flex: 0 50%;
+    max-width: 50%;
+    height: auto;
+
+}
+
+.content
+{
+    padding: 35px;
+
+}
+
+.content h2
+{
+    color: #36455c;
+    font-size: 24px;
+    margin: 15px 0px;
+
+}
+
+.content p
+{
+    color:#000000;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 15px 0px;
+
+}
+
+.Learn-More-btn
+{
+    display: inline-block;
+    color: #fff;
+    background-color: #0084ff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: o.2s ease
+    ;
+}
+
+.Learn-More-btn:hover
+{
+    background-color: #006dd6;
+
+}
+.learnmore{
+    position: relative;
+    display: inline-block;
+}
+.learnmore-content{
+    display: none;
+    position: absolute;
+    background-color:darksalmon;
+    font-family:Arial, Helvetica, sans-serif;
+    min-width: 700px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.learnmore-content a{
+    color:rgb(11, 11, 111); 
+    padding: 12px 16px;
+    font-family: sans-serif;
+    text-decoration:none;
+    display: block;
+}
+.show{display: block;}
+
+footer{
+    background-color: #000000;
+    
+    
+}
+
+.footerContainer{
+    width: 90%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.9;
+}
+
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav{
+    margin: 30px 0;
+}
+
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media(max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+
+
+
+
+

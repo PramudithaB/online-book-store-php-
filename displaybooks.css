@@ -1,0 +1,137 @@
+body {
+	background-color: gray;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+
+h1 {
+	font-size: 40px;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+h2 {
+	font-size: 36px;
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+	margin: auto;
+}
+
+
+
+button {
+	width: 12%;
+	height: 5%;
+	background-color: red;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	border-style: solid;
+	border-radius: 30px;
+}
+
+button:hover {
+	opacity: 0.3;
+}
+
+.tab1 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding-top: 70px;
+}
+
+
+
+.details {
+	flex-basis: 50%;
+	padding: 60px;
+}
+
+.img1 {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	right: 100px;
+}
+
+#formdiv{
+    margin-left: 35%;
+    margin-top:100px;
+    background-color: rgb(206, 204, 204);
+    width: 600px;
+    padding: 50px;
+}
+
+.formele {
+
+	width: 350px;
+	padding: 5px;
+	border-radius: 3px;
+
+}
+
+.button1 {
+	width: 12%;
+	height: 5%;
+	background-color: red;
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	border-style: solid;
+	border-radius: 30px;
+}
+
+.admintable {
+	margin-left: 18%;
+	width: 60%;
+	border-collapse: collapse;
+	border-color: gray;
+	overflow: scroll;
+
+
+}
+
+.admintable td,
+th {
+	padding: 20px;
+	vertical-align: middle;
+}
+
+#deletelink {
+	background-color: red;
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	border-radius: 3px;
+
+}
+
+#editlink {
+	background-color: rgb(253, 181, 0);
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	margin-left: 10px;
+	border-radius: 3px;
+	width: 5px;
+
+}
+
+.admintable tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.admintable th {
+	background-color: rgb(253, 237, 8);
+	top: 150px;
+	position: sticky;
+	z-index: 20;
+
+}
+
+.topb {
+	align-items: center;
+}
